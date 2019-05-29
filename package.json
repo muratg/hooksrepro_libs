@@ -16,7 +16,6 @@
     "parcel": "parcel index/index.html",
     "makeCounterClass": "spago bundle-module -m CounterClass -t counterClass.js",
     "makeCounterHooks": "spago bundle-module -m CounterHooks -t counterHooks.js",
-    "copyCounter": "cp counter.js ~/hooksrepro/src/purs",
-    "counter": "npm run makeCounter && npm run copyCounter"
+    "copyCounters": "cp counter*.js ~/hooksrepro/src/purs",
   }
 }
